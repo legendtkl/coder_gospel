@@ -1,0 +1,44 @@
+﻿生成启动时间为 2013/11/18 22:56:52。
+     1>项目“E:\coding\coder gospel\coder gospel\coder gospel.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\coder gospel.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Release\coder gospel.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\ProgramFile\VisualStudio2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\coder gospel.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\ProgramFile\VisualStudio2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\coder gospel.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "coder gospel.cpp" Content.cpp GenerateImage.cpp
+         coder gospel.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\ProgramFile\VisualStudio2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         Content.cpp
+         GenerateImage.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\ProgramFile\VisualStudio2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+       Link:
+         D:\ProgramFile\VisualStudio2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\coding\3DUNDERWORLD_SLSv3.2\Release\coder gospel.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\coder gospel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\coding\3DUNDERWORLD_SLSv3.2\Release\coder gospel.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\coding\3DUNDERWORLD_SLSv3.2\Release\coder gospel.lib" /MACHINE:X86 "Release\coder gospel.obj"
+         Release\Content.obj
+         Release\GenerateImage.obj
+         Release\stdafx.obj
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Scalar_<double> const &)" (??4Mat@cv@@QAEAAV01@ABV?$Scalar_@N@1@@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPAHH@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall cv::_OutputArray::_OutputArray(class cv::Mat &)" (??0_OutputArray@cv@@QAE@AAVMat@1@@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::transpose(class cv::_InputArray const &,class cv::_OutputArray const &)" (?transpose@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall cv::_InputArray::_InputArray(class cv::Mat const &)" (??0_InputArray@cv@@QAE@ABVMat@1@@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "class cv::Size_<int> __cdecl cv::getTextSize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int,double,int,int *)" (?getTextSize@cv@@YA?AV?$Size_@H@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HNHPAH@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::putText(class cv::Mat &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::Point_<int>,int,double,class cv::Scalar_<double>,int,int,bool)" (?putText@cv@@YAXAAVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::flip(class cv::_InputArray const &,class cv::_OutputArray const &,int)" (?flip@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@H@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 _cvNamedWindow
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 _cvSetWindowProperty
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@1@@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+     1>GenerateImage.obj : error LNK2001: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+     1>E:\coding\3DUNDERWORLD_SLSv3.2\Release\coder gospel.exe : fatal error LNK1120: 16 个无法解析的外部命令
+     1>已完成生成项目“E:\coding\coder gospel\coder gospel\coder gospel.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.74

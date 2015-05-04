@@ -1,0 +1,35 @@
+﻿生成启动时间为 2014/3/21 13:08:04。
+     1>项目“E:\coding\coder gospel\coder gospel\coder gospel.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“x64\Debug\coder gospel.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“x64\Debug\coder gospel.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\ProgramFile\VisualStudio2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\coder gospel.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\ProgramFile\VisualStudio2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\coder gospel.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt "coder gospel.cpp" Content.cpp GenerateImage.cpp
+         GenerateImage.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\ProgramFile\VisualStudio2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         Content.cpp
+     1>Content.cpp(45): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         coder gospel.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\ProgramFile\VisualStudio2010\VC\include\stdio.h(234) : 参见“fopen”的声明
+         Generating Code...
+       Link:
+         D:\ProgramFile\VisualStudio2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\coding\coder gospel\x64\Debug\coder gospel.exe" /INCREMENTAL /NOLOGO opencv_core244d.lib opencv_highgui244d.lib opencv_video244d.lib opencv_ml244d.lib opencv_legacy244d.lib opencv_calib3d244d.lib opencv_contrib244d.lib opencv_features2d244d.lib opencv_flann244d.lib opencv_gpu244d.lib opencv_imgproc244d.lib opencv_objdetect244d.lib opencv_ts244d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\coder gospel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\coding\coder gospel\x64\Debug\coder gospel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\coding\coder gospel\x64\Debug\coder gospel.lib" /MACHINE:X64 "x64\Debug\coder gospel.obj"
+         x64\Debug\Content.obj
+         x64\Debug\GenerateImage.obj
+         x64\Debug\stdafx.obj
+         coder gospel.vcxproj -> E:\coding\coder gospel\x64\Debug\coder gospel.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"E:\coding\coder gospel\x64\Debug\coder gospel.exe.manifest" /manifest "x64\Debug\coder gospel.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\coder gospel.unsuccessfulbuild”。
+         正在对“x64\Debug\coder gospel.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\coding\coder gospel\coder gospel\coder gospel.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.27
